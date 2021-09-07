@@ -1,0 +1,230 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar a{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.navbar-brand {
+    font-family: 'Merriweather Sans', sans-serif !important;
+    font-size: 1.25rem !important;
+    
+}
+header.masthead{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("./bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startTitleLine h1{
+    font-family: 'Merriweather Sans', sans-serif !important;
+    font-size: 48px;
+}
+.startTitleLine::after{
+    position: absolute;
+   content: '';
+   width: 80px;
+   height: 4px;
+   background-color: #f4623a;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   margin-top: 25px;
+}
+.startdescription p{
+ color: #ffffffbf;
+ font-family: 'Merriweather', serif;
+ font-size: 19px;
+ font-weight: 480;
+}
+.startdescription button{
+    width: 180px;
+    height:60px ;
+    color: #fff;
+    background-color: #f4623a;
+    border: none;
+    border-radius: 10rem;
+}
+section{
+    width: 100%;
+    height: 400px;
+    background-color: #f4623a;
+}
+.startTitleLine1::after{
+    position: absolute;
+   content: '';
+   width: 80px;
+   height: 4px;
+   background-color: #fff;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   margin-top: 25px;
+}
+.startdescription1 button{
+    width: 180px;
+    height:60px ;
+    color: #000;
+    background-color:#fff ;
+    border: none;
+    border-radius: 10rem;
+}
+.startdescription1 p{
+color: #ffffffbf;
+ font-family: 'Merriweather', serif;
+ font-size: 19px;
+ font-weight: 480;
+}
+.section_1{
+    width: 100%;
+    background-color: #fff;
+}
+.startTitleLine2::after{
+    position: absolute;
+   content: '';
+   width: 80px;
+   height: 4px;
+   background-color: #f4623a;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   margin-top: 25px;
+}
+.startTitleLine2 h1{
+    font-family: 'Merriweather Sans', sans-serif !important;
+    font-size: 30px;
+}
+.section_1 .col-md-3{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.section_1 .col-md-3 i{
+    color: #f4623a;
+}
+.icon-section{
+    
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.icon-section i::before{
+    width: 38px !important;
+    height: 38px !important;
+}
+.section_1 .col-md-3 h3{
+    font-size: 24px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.section_1 .col-md-3 p{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #6c757d
+}
+
+.services_image::before{
+    position: absolute;
+    content: 'Project Name';
+    width: 100%;
+    color: #fff;
+    font-size: 32px;
+    height: 100%;
+    background-color: rgba(244, 98, 58, .6);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: linear .3s all;
+}
+
+.services_image:hover::before{
+    opacity: 1;
+    transition: linear .3s all;
+}
+.page_section {
+    
+    background-color: #212529;
+}
+.page_section h1{
+    font-family: 'Merriweather Sans', sans-serif !important;
+    font-size: 30px;
+}
+.page_section button {
+    width: 194px;
+    height: 60px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    
+    
+}
+.page_contact{
+    background-color: #fff;
+}
+.startTitleLine3::after{
+    position: absolute;
+   content: '';
+   width: 80px;
+   height: 4px;
+   background-color: #f4623a;
+   transform: translate(-50%,-50%);
+   left: 50%;
+   margin-top: 25px;
+}  
+.contact_p p{
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    color: #6c757d;
+
+} 
+form{
+    margin-top: 5rem;
+    width: 35%;
+    padding-top: 10px;
+    
+
+}
+.form-group input{
+    margin: 6px;
+}
+form .submit button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    color: #fff;
+    background-color: #f4623a ;
+    border-radius: 20px;
+}
+.phone_icon i{
+    font-size: 30px;
+    color: #6c757d;
+}
+.page_contact{
+    margin-bottom: 4rem;
+}
+footer{
+    background-color: #f8f9fa;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.icon-section i{
+    font-size: 38px;
+    margin-bottom: 15px;
+}
